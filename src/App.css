@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all .2s linear;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-image: url("cupcake.jpg");
+    background-size: 100% 500px;
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+    font-size: 2rem;
+    color: #69c2bf;
+    font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.color {
+    color: #efb3ab;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link {
+    padding: 10px 35px;
+    text-decoration: none;
+    color: black;
+    transform: color 0.1s linear;
+}
+
+.link:hover{
+color: lightcoral;
+text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.shipping {
+    padding: 20px;
+}
+
+.btnOne {
+    background-color: #f5a849;
+    padding: 30px;
+    border: none;
+    text-transform: uppercase;
+    margin: 5px;
+    margin-top: 20px;
+    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+}
+
+.btnTwo {
+background-color: #efb3ab;
+padding: 30px;
+border: white;
+text-transform: uppercase;
+margin: 5px;
+margin-top: 20px;
+box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+}
+
+.btnThree {
+    background-color: #dcd805;
+    padding: 30px;
+    border: white;
+    text-transform: uppercase;
+    margin: 5px;
+    margin-top: 20px;
+    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+}
+
+.btnFour {
+    background-color: #69c2bf;
+    padding: 30px;
+    border: white;
+    text-transform: uppercase;
+    margin: 5px;
+    margin-top: 20px;
+    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+}
+
+.btnFive {
+    background-color: #90ad33;
+    padding: 30px;
+    border: white;
+    text-transform: uppercase;
+    margin: 5px;
+    margin-top: 20px;
+    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+}
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
 }
