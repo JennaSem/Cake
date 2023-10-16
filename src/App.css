@@ -1,118 +1,229 @@
 * {
-    font-family: 'Poppins', sans-serif;
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    transition: all .2s linear;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.2s linear;
 }
 
-body {
-    background-image: url("cupcake.jpg");
-    background-size: 100% 500px;
-    background-position: center;
-    background-position-y: top;
-    background-repeat: no-repeat;
+body.home {
+  background-image: url("main-bakery.png");
+  background-size: 100% 500px;
+  background-position: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: white;
-    padding: 1rem;
-    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 1rem;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .logo {
-    font-size: 2rem;
-    color: #69c2bf;
-    font-weight: 500;
+  font-size: 2rem;
+  color: #69c2bf;
+  font-weight: 500;
 }
 
 .color {
-    color: #efb3ab;
+  color: #efb3ab;
 }
 
 .link {
-    padding: 10px 35px;
-    text-decoration: none;
-    color: black;
-    transform: color 0.1s linear;
+  padding: 10px 35px;
+  text-decoration: none;
+  color: #3a3f3f;
+  transform: color 0.1s linear;
 }
 
-.link:hover{
-color: lightcoral;
-text-transform: uppercase;
+.link:hover {
+  color: lightcoral;
+  text-transform: uppercase;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    margin-top: 170px;
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
 }
 
 .shipping {
-    padding: 20px;
+  padding: 20px;
 }
 
 .btnOne {
-    background-color: #f5a849;
-    padding: 30px;
-    border: none;
-    text-transform: uppercase;
-    margin: 5px;
-    margin-top: 20px;
-    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+  background-color: #f5a849;
+  padding: 25px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .btnTwo {
-background-color: #efb3ab;
-padding: 30px;
-border: white;
-text-transform: uppercase;
-margin: 5px;
-margin-top: 20px;
-box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+  background-color: #efb3ab;
+  padding: 25px;
+  border: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .btnThree {
-    background-color: #dcd805;
-    padding: 30px;
-    border: white;
-    text-transform: uppercase;
-    margin: 5px;
-    margin-top: 20px;
-    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+  background-color: #dcd805;
+  padding: 25px;
+  border: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .btnFour {
-    background-color: #69c2bf;
-    padding: 30px;
-    border: white;
-    text-transform: uppercase;
-    margin: 5px;
-    margin-top: 20px;
-    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+  background-color: #69c2bf;
+  padding: 25px;
+  border: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .btnFive {
-    background-color: #90ad33;
-    padding: 30px;
-    border: white;
-    text-transform: uppercase;
-    margin: 5px;
-    margin-top: 20px;
-    box-shadow: 0 .3rem 2rem rgba(0,0,0,.2);
+  background-color: #90ad33;
+  padding: 25px;
+  border: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-
 .products {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .product-card {
-    padding: 2%;
-    flex-grow: 1;
-    flex-basis: 16%;
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+
+.product-card img:hover {
+  transform: scale(1.15);
+}
+
+.product-info {
+  padding-top: 5%;
+}
+
+.text-about {
+  text-align: center;
+  padding-top: 2rem;
+  color: #3a3f3f;
+}
+
+.story {
+  width: 75%;
+  margin: 5% 10%;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  padding: 4rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  transform: skewX(-12deg);
+}
+
+.about-image {
+  width: 15rem;
+  margin-top: -3.7%;
+  float: left;
+  transform: translateX(-3rem) skewX(12deg);
+  position: relative;
+  overflow: hidden;
+}
+
+.storyOne {
+  background-color: #f5a849;
+}
+
+.storyTwo {
+  background-color: #dcd805;
+}
+.storyThree {
+  background-color: #90ad33;
+}
+
+.history {
+  color: #69c2bf;
+  font-weight: 600;
+}
+.recipe {
+  color: #efb3ab;
+  font-weight: 600;
+}
+
+.message {
+  background-image: linear-gradient(
+      105deg,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.8) 65%,
+      transparent 65%
+    ),
+    url(bakery.png);
+  background-size: 100% 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 7%;
+}
+
+.message form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3rem;
+}
+
+.box {
+  width: 50%;
+  padding: 10px;
+  font-size: 13px;
+  margin: 3px;
+}
+.contact-btn {
+  margin: 2rem;
+  background-color: #efb3ab;
+  padding: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  transform: scale(1.15);
 }
