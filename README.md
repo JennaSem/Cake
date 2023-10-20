@@ -2,7 +2,6 @@
 <!-- ABOUT THE PROJECT -->
 ## ComicCake
 
-
 Welcome to my bakery website, where the world of pastries meets the magic of comics! This website is designed to make selecting your favorite desserts a breeze. Say goodbye to endless scrolling through products; simply click on the category that piques your interest and savor your choices, saving valuable time.
 
 ## Key Features
