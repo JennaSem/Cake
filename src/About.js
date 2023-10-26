@@ -20,6 +20,9 @@ function About() {
 
       <div className="story storyTwo">
         <h3 className="history">Our History</h3>
+        <figure className="about-image">
+          <img src="images/history.png" width="150px" alt="pastry team" />
+        </figure>
         <p>
           Our journey began in 1987 when our founder, Jenna, decided to infuse a
           touch of magic and fantasy into the world of baking. We started as a
@@ -30,6 +33,9 @@ function About() {
 
       <div className="story storyThree">
         <h3 className="recipe">Our Unique Recipes</h3>
+        <figure className="about-image">
+          <img src="images/recipes.png" width="150px" alt="pastry team" />
+        </figure>
         <p>
           At ComicCake, we offer more than just sweets. Our bakers are true
           masters of their craft, creating desserts that transport you to the
