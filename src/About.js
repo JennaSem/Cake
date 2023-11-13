@@ -9,7 +9,11 @@ function About() {
       </div>
       <div className="story storyOne">
         <figure className="about-image">
-          <img src="images/pastry_teamle.png" width="150px" alt="pastry team" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/pastry_teamle.png"}
+            width="150px"
+            alt="pastry team"
+          />
         </figure>
         <p>
           Our enchanting bakery where culinary art meets the world of fantasy.
@@ -21,7 +25,11 @@ function About() {
       <div className="story storyTwo">
         <h3 className="history">Our History</h3>
         <figure className="about-image">
-          <img src="images/history.png" width="150px" alt="pastry team" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/history.png"}
+            width="150px"
+            alt="pastry team"
+          />
         </figure>
         <p>
           Our journey began in 1987 when our founder, Jenna, decided to infuse a
@@ -34,7 +42,11 @@ function About() {
       <div className="story storyThree">
         <h3 className="recipe">Our Unique Recipes</h3>
         <figure className="about-image">
-          <img src="images/recipes.png" width="150px" alt="pastry team" />
+          <img
+            src={process.env.PUBLIC_URL + "/images/recipes.png"}
+            width="150px"
+            alt="pastry team"
+          />
         </figure>
         <p>
           At ComicCake, we offer more than just sweets. Our bakers are true
